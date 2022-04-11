@@ -43,10 +43,8 @@ const getTdText = (code) => {
     case CODE.FLAG:
     case CODE.FLAG_MINE:
       return "!";
-    case CODE.OPENED:
-      return "";
     default:
-      return "";
+      return code || null;
   }
 };
 

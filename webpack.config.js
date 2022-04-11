@@ -2,7 +2,7 @@ const path = require("path");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 
 module.exports = {
-  name: "tictactoe-dev",
+  name: "mineSearch-dev",
   mode: "development",
   devtool: "inline-source-map",
   resolve: {
